@@ -53,6 +53,11 @@ body {
   top: 0;
 }
 
+.app{
+  left: 25%;
+  top: 25%;
+}
+
 .btn {
   position: absolute;
   width: 159px;
@@ -64,19 +69,6 @@ body {
   bottom: 20px;
   right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  animation */
 .btn:hover {
@@ -91,13 +83,14 @@ body {
   }
 }
 
-.app {
+.app.play {
   animation-name: bmo;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-timing-function: linear;
 }
+
 @keyframes bmo {
   0% {
     left: -1000px;
@@ -127,7 +120,7 @@ body {
 }
 
 @keyframes bmo_stop {
-  0%{
+  0% {
     left: 25%;
     top: 200px;
   }
