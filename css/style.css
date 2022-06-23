@@ -61,9 +61,24 @@ body {
   background-image: url(../images/rescue.png);
   background-repeat: no-repeat;
   background-size: cover;
-  bottom: 0;
-  right: 0;
+  bottom: 20px;
+  right: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  animation */
 .btn:hover {
   animation-name: btn_ani;
   animation-duration: 2s;
@@ -108,5 +123,16 @@ body {
   100% {
     left: -1000px;
     top: -100px;
+  }
+}
+
+@keyframes bmo_stop {
+  0%{
+    left: 25%;
+    top: 200px;
+  }
+  100% {
+    left: 25%;
+    top: 200px;
   }
 }
