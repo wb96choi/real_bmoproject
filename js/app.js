@@ -55,7 +55,10 @@ $(function () {
 
     }, 1000);
 
-
+$(function () {
+  $('.btn').click(function() {
+    $('.app').css('animation-name', 'bmo_stop')
+  });
+});
     
-  
   
