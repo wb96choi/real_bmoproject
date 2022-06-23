@@ -10,3 +10,9 @@ https://wb96choi.github.io/real_bmoproject/
 
 그리고 한번 더 눌러주시면 비모는 다시 유영을 시작합니다.
 
+## 주요내용
+HTML, CSS 퍼블리싱 (애니메이션 및 반응형 웹디자인)
+javascript, jqeury (오전, 오후, 요일 기능 추가)
+
+## 사용라이브러리
+javascript, jqeury
